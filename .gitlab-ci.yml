@@ -15,9 +15,6 @@ image: gradle:alpine
 build:
   stage: build
   script: ./gradlew build
-  cache:
-    key: "$CI_COMMIT_REF_NAME"
-    policy: push
+  artifacts:
     paths:
-      - build
-      - .gradle
+      - "spark-forge/build/libs"
