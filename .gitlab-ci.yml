@@ -17,6 +17,7 @@ build:
   script:
     - apt update
     - apt install git -y
+    - apt install openjdk-17-jdk -y
     - ./gradlew build
   artifacts:
     paths:
