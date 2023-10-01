@@ -8,8 +8,7 @@ build:
     - apt install git -y
     - apt install openjdk-17-jdk -y
     - ls
-    - gradle
-    - ./gradlew build
+    - ./gradlew
   artifacts:
     paths:
       - "spark-forge/build/libs"
