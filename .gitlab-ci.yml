@@ -7,7 +7,7 @@ build:
     - apt update
     - apt install git -y
     - apt install openjdk-17-jdk -y
-    - ./gradlew
+    - ./gradlew --debug
     - ./gradlew build
   artifacts:
     paths:
