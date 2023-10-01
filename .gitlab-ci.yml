@@ -9,12 +9,15 @@
 # https://gradle.org/
 # https://github.com/gradle/gradle
 
-image: gradle:alpine
+image: ubuntu:22.04
 
 
 build:
   stage: build
-  script: ./gradlew build
+  script:
+    - apt update
+    - apt install git -y
+    - ./gradlew build
   artifacts:
     paths:
       - "spark-forge/build/libs"
