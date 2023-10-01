@@ -1,0 +1,7 @@
+Java Launcher: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+Arguments: '--inJar, /root/workingDir/spark/spark-forge/build/fg_cache/net/minecraftforge/forge/1.20.2-48.0.1/forge-1.20.2-48.0.1-injected.jar, --outJar, /root/workingDir/spark/spark-forge/build/fg_cache/net/minecraftforge/forge/1.20.2-48.0.1_mapped_official_1.20.2/forge-1.20.2-48.0.1_mapped_official_1.20.2.jar, --logFile, accesstransform.log, --atFile, /root/workingDir/spark/spark-forge/src/main/resources/META-INF/accesstransformer.cfg, --atFile, /root/workingDir/spark/spark-forge/build/_atJar_4/parent_at.cfg'
+Classpath:
+ - /root/.gradle/caches/forge_gradle/maven_downloader/net/minecraftforge/accesstransformers/8.0.7/accesstransformers-8.0.7-fatjar.jar
+Working directory: /root/workingDir/spark/spark-forge/build/_atJar_4
+Main class: net.minecraftforge.accesstransformer.TransformerProcessor
+====================================
